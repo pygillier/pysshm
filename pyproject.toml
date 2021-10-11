@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pysshm"
-version = "0.3.1"
+version = "0.3.2"
 description = "SSM shell client, the python way"
 authors = ["Pierre-Yves Gillier <github@pygillier.me>"]
 license = "MIT"
