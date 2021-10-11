@@ -1,9 +1,18 @@
 [tool.poetry]
 name = "pysshm"
-version = "0.3.0"
+version = "0.3.1"
 description = "SSM shell client, the python way"
 authors = ["Pierre-Yves Gillier <github@pygillier.me>"]
 license = "MIT"
+readme = "README.md"
+repository = "https://github.com/pygillier/pysshm"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console :: Curses",
+    "Intended Audience :: System Administrators",
+    "Operating System :: OS Independent",
+    "Topic :: System :: Shells"
+]
 
 [tool.poetry.dependencies]
 python = "^3.9"
