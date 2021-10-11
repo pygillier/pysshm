@@ -1,3 +1,4 @@
+"""Loguru configuration for project"""
 import sys
 from loguru import logger
 
@@ -8,8 +9,8 @@ def configure(debug: bool) -> None:
         "handlers": [
             {
                 "sink": sys.stdout,
-                "format": "{message}", 
-                "level": "DEBUG" if debug else "INFO"
+                "format": "{message}",
+                "level": "DEBUG" if debug else "INFO",
             },
         ]
     }
