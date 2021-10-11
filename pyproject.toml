@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "sshm"
+version = "0.1.0"
+description = "SSM shell client, the python way"
+authors = ["Pierre-Yves Gillier <github@pygillier.me>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+boto3 = "^1.18.58"
+click = "^8.0.3"
+loguru = "^0.5.3"
+pick = "^1.0.0"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.9.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+sshm = "sshm.cli:run"
