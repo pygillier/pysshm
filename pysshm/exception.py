@@ -1,4 +1,5 @@
 """Base project exception"""
+
 # pylint: disable=C0115
 
 

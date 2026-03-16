@@ -1,4 +1,5 @@
 """Primary entrypoint for project"""
+
 import click
 from loguru import logger
 from .ssm import Client
