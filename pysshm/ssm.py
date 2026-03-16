@@ -1,4 +1,5 @@
 """SSM client for project"""
+
 import subprocess
 import json
 import boto3

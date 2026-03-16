@@ -1,4 +1,5 @@
 """Loguru configuration for project"""
+
 import sys
 from loguru import logger
 
